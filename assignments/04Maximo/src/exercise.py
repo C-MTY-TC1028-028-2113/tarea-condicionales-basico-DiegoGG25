@@ -4,12 +4,16 @@ def main():
     num2 = int(input("Ingresa el segundo número: "))
     num3 = int(input("Ingresa el tercer número: "))
 
-    if ???:
-        print(num1)
-    elif ???: 
-        print(num2)
+    if num3 > num2:
+        if num3 > num1:
+            print(num3)
+        else:
+            print(num1)
     else:
-        print(num3)
+        if num2 > num1:
+            print(num2)
+        else:
+            print(num1)
 
 
 if __name__=='__main__':
